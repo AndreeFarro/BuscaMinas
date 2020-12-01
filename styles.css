@@ -1,0 +1,83 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+html{
+	background:#343a40;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;	
+	justify-content: center;
+}
+#minas,#time{
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	padding: 10px 30px;
+	color: #fff;
+	border:solid 1px #454d55;
+}
+.cabeceras{
+	color: #fff;
+	display: flex;
+	gap:30px;
+	justify-content: center;
+	margin-bottom: 10px;
+	font-family: 'calibri';
+	user-select: none;
+}
+#contenedorPrincipal{justify-content: center;gap:30px;}
+#container{
+ 	display:grid !important;
+	border:solid 1px #454d55 !important;
+	margin-top: 10px;
+}
+.controls{display: flex;justify-content: center;}
+.opciones{
+	list-style: none;
+	display: flex;
+	gap:15px;
+	font-family: 'calibri';
+}
+.opciones li{
+	color: 	white;
+	display: flex;
+	width: 150px;	
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	border-radius: 30px;
+	font-weight: bold;
+	cursor: pointer;
+	user-select: none;
+}
+#resetear{border: 1px solid #2a9d8f;color: #2a9d8f;}
+#principiante{border: 1px solid #e9c46a;color: #e9c46a;}
+#intermedio{border: 1px solid #f4a261;color: #f4a261;}
+#avanzado{border: 1px solid #e76f51;color: #e76f51;}
+
+#resetear:hover{background: #2a9d8f;color: #fff;}
+#principiante:hover{background: #e9c46a;color: #fff;}
+#intermedio:hover{background: #f4a261;color: #fff;}
+#avanzado:hover{background: #e76f51;color: #fff;}
+
+.nodo{
+	user-select: none;
+	background:#454d55;
+	color:#ffffff;
+	border:solid 1px #343a40;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'calibri';
+	font-size: 20px;
+	cursor: pointer;
+	font-weight: normal;
+}
+
+.nodo:hover{
+	background: gray;
+	border:solid 1px #fff;
+}
