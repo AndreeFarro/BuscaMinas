@@ -1,6 +1,6 @@
 # BuscaMinas
 implementacion del Juego <strong>Busca Minas</strong> con Javascrip, HTML y CSS <br>
-link: <a href="https://busca-mina.herokuapp.com/">Busca Minas</a>
+link: <a href="https://busca-mina.herokuapp.com/">Busca Minas</a> <br>
 <strong>Niveles de Juego</strong> <br>
 <ul>
 <li>Nivel principiante: 8 × 8 casillas y 10 minas.</li><br>
